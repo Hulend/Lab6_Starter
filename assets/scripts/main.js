@@ -77,7 +77,7 @@ function initFormHandler() {
   const dForm = document.getElementById('new-recipe');
   // B3. TODO - Add an event listener for the 'submit' event, which fires when the
   //            submit button is clicked
-  dForm.addEventListener('submit', function(event) {
+  dForm.addEventListener('submit', function() {
   // Steps B4-B9 will occur inside the event listener from step B3
   // B4. TODO - Create a new FormData object from the <form> element reference above
   // B5. TODO - Create an empty object (I'll refer to this object as recipeObject to
